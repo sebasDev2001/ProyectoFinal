@@ -8,17 +8,25 @@
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "chromedriver": "^95.0.0",
+    "mocha": "^9.1.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "5.2",
     "react-scripts": "4.0.3",
+    "selenium-webdriver": "^4.0.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --coverage --watchAll=false",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "pruebasUiCirculo": "mocha src/paginas/tests/testPaginaCirculo.spec.js --exit",
+    "pruebasUiRectangulo": "mocha src/paginas/tests/testPaginaRectangulo.spec.js --exit",
+    "pruebasUiTriangulo": "mocha src/paginas/tests/testPaginaTriangulo.spec.js --exit",
+    "pruebasUiFactorial": "mocha src/paginas/tests/testPaginaFactorial.spec.js --exit",
+    "pruebasUiFibonacci": "mocha src/paginas/tests/testPaginaFibonacci.spec.js --exit"
   },
   "eslintConfig": {
     "extends": [
