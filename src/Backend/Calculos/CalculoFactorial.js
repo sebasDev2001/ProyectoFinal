@@ -6,6 +6,3 @@ export default function calcFacRec(numero){
     return numero*calcFacRec(numero-1);
 }
 
-//////////////////////////////////////////
-// Ojo con si el numero se muy grande porque despuueus saca error
-///////////////////////////////////////////

@@ -30,7 +30,6 @@ describe('testPaginaFactorial', function() {
     await driver.findElement(By.id("inputID")).click()
     await driver.findElement(By.id("inputID")).sendKeys("129")
     await driver.findElement(By.css("button:nth-child(1)")).click()
-
     await driver.findElement(By.id("inputID")).click()
     await driver.findElement(By.id("inputID")).sendKeys("1")
     await driver.findElement(By.css("button:nth-child(1)")).click()
